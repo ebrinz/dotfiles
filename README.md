@@ -20,12 +20,15 @@ This repository contains a collection of dotfiles for OSX, developed initially t
 ## Installation
 
    ```bash
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   # oh-my-zsh terminal
+   curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
+   # starship prompt
    curl -sS https://starship.rs/install.sh | sh
-   ...or...
+   # ...or...
    brew install starship
-
+   
+   # miniconda lightweight package and environment manager
    brew install --cask miniconda
    ```
 
