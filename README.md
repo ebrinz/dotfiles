@@ -22,7 +22,7 @@ To use these dotfiles:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/dotfiles.git
+   git clone https://github.com/ebrinz/dotfiles
    cd dotfiles
    ```
 
