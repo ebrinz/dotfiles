@@ -20,6 +20,17 @@ This repository contains a collection of dotfiles for OSX, developed initially t
 ## Installation
 
    ```bash
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+   curl -sS https://starship.rs/install.sh | sh
+   ...or...
+   brew install starship
+
+   brew install --cask miniconda
+   ```
+
+
+   ```bash
    git clone https://github.com/ebrinz/dotfiles
    cd dotfiles
    sh setup.sh
